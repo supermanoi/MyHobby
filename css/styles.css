@@ -1,89 +1,120 @@
 body {
-    background-color: aqua;
-    font-size: 12px;
+  background-color: aqua;
+  font-size: 12px;
 }
 
 header {
-    text-align: center;
+  text-align: center;
 }
 
 nav {
-    background-color: rgb(230, 72, 72);
-    font-family: 'Courier New', Courier, monospace;
+  background-color: rgb(230, 72, 72);
+  font-family: "Courier New", Courier, monospace;
 }
 
 nav a {
-    color: rgb(11, 88, 11);
-    text-decoration: none;
-    margin: 10px;
-    font-weight: bold;
-    font-size: 2em;
+  color: rgb(11, 88, 11);
+  text-decoration: none;
+  margin: 10px;
+  font-weight: bold;
+  font-size: 2em;
 }
 
 nav a:hover {
-    color: rgb(11, 88, 11);
-    background-color: rgb(76, 76, 160);
-    text-decoration: none;
-    margin: 10px;
-    font-weight: bold;
-    font-size: 2em;
+  color: rgb(11, 88, 11);
+  background-color: rgb(76, 76, 160);
+  text-decoration: none;
+  margin: 10px;
+  font-weight: bold;
+  font-size: 2em;
 }
 
 h1 {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 1.5em;
-    color: rgb(129, 46, 95);
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 1.5em;
+  color: rgb(129, 46, 95);
 }
 
 blockquote {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 1.5em;
-    color: rgb(129, 46, 95);
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 1.5em;
+  color: rgb(129, 46, 95);
 }
 
 .homecontent {
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 1.5em;
-    color: rgb(85, 79, 167);
-    width: 70%;
-    border: 3px solid black;
-    margin: auto;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1.5em;
+  color: rgb(233, 18, 18);
+  width: 60%;
+  border: 3px solid black;
+  margin: auto;
 }
 
 /* stories page styles*/
 
 .stories {
-    /* border: 2px solid black; */
-    width: 80%;
-    margin: auto;
-    display: flex;
-    flex-wrap: wrap;
-  }
-  .stories > article {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    max-width: 350px;
-    padding: 2px;
-    margin-bottom: 20px;
-    margin-right: 20px;
-    font-family: arial;
-  }
-  .stories > article > p,
-  h3 {
-    padding: 2px;
-    margin: 5px;
-    color: #803376;
-  }
-  .stories > article > img {
-    width: 300px;
-    opacity: 0.8;
-  }
-  
-footer {
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 1.5em;
-    color: rgb(85, 79, 167);
-    text-align: center;
+  /* border: 2px solid black; */
+  width: 100%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+.stories > article {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 350px;
+  padding: 2px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  font-family: arial;
+}
+.stories > article > p,
+h3 {
+  padding: 2px;
+  margin: 5px;
+  color: #803376;
+}
+.stories > article > img {
+  width: 300px;
+  opacity: 0.8;
 }
 
-
-
+/* start style for contact page  */
+.container {
+  background-color: rgb(247, 229, 201);
+  width: 50%;
+  margin: auto;
+  border-radius: 5px;
+  padding: 20px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 14px;
+}
+input[type="text"],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+input[type="submit"] {
+  background-color: #4caf50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+/* End style for contact page */
+footer {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1.5em;
+  color: rgb(85, 79, 167);
+  text-align: center;
+}
